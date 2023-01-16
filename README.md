@@ -1,3 +1,5 @@
+<img src="./public/todo.png" alt="NextJS Mantine UI" width="100%" height="auto" />
+
 # NextJS Tutorial and Exercises
 This is the first tutorial I've done with NextJS and Mantine UI. I've been wanting to learn it for a while now, and I'm glad I finally did. I'm going to be using this repo to store my notes and exercises from the tutorial.
 
