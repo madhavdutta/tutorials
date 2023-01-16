@@ -1,11 +1,34 @@
-# tutorials
-All NextJs Tutorials and Exercises 
+# NextJS Tutorial and Exercises
+This is the first tutorial I've done with NextJS and Mantine UI. I've been wanting to learn it for a while now, and I'm glad I finally did. I'm going to be using this repo to store my notes and exercises from the tutorial.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Installation
+To install this project, you'll need to have NextJs installed. You can download it [here](https://nextjs.org/docs/getting-started).
+
+Now you need to Install Mantine UI. You can do that by running the following command in your terminal:
+
+```bash
+yarn add @mantine/core @mantine/hooks @mantine/form @mantine/dates dayjs @mantine/notifications @mantine/prism @mantine/tiptap @tabler/icons @tiptap/react @tiptap/extension-link @tiptap/starter-kit @mantine/dropzone @mantine/carousel embla-carousel-react @mantine/spotlight @mantine/modals @mantine/nprogress @mantine/next @emotion/server @emotion/react
+```
 
 ## Getting Started
+First clone this project to your local machine. Then run the following command in your terminal:
 
-First, run the development server:
+```bash
+git clone https://github.com/madhavdutta/tutorials.git
+```
+
+Then run the following command in your terminal:
+
+```bash
+cd tutorials
+```
+
+Now you can run the following command in your terminal to start the project:
+
+```bash
+yarn or npm install
+```
+You are now ready to start the project.
 
 ```bash
 npm run dev
@@ -17,25 +40,4 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check https://madhavdutta.com for more tutorials.
