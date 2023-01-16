@@ -2,7 +2,11 @@
 This is the first tutorial I've done with NextJS and Mantine UI. I've been wanting to learn it for a while now, and I'm glad I finally did. I'm going to be using this repo to store my notes and exercises from the tutorial.
 
 ## Installation
-To install this project, you'll need to have NextJs installed. You can download it [here](https://nextjs.org/docs/getting-started).
+To install this project, you'll need to have NextJs installed.
+
+```bash
+yarn create next-app --typescript
+```
 
 Now you need to Install Mantine UI. You can do that by running the following command in your terminal:
 
@@ -10,7 +14,9 @@ Now you need to Install Mantine UI. You can do that by running the following com
 yarn add @mantine/core @mantine/hooks @mantine/form @mantine/dates dayjs @mantine/notifications @mantine/prism @mantine/tiptap @tabler/icons @tiptap/react @tiptap/extension-link @tiptap/starter-kit @mantine/dropzone @mantine/carousel embla-carousel-react @mantine/spotlight @mantine/modals @mantine/nprogress @mantine/next @emotion/server @emotion/react
 ```
 
-## Getting Started
+OR 
+
+## Clone the project
 First clone this project to your local machine. Then run the following command in your terminal:
 
 ```bash
